@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".inbox.ShareFragment">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/ic_round_close_24"
+        app:navigationIconTint="?attr/colorOnPrimary"
+        app:title="Share"
+        app:titleCentered="true"
+        app:titleTextAppearance="@style/Theme.Pinterest.Typography.Aleo20"
+        app:titleTextColor="#D9D9D9" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_social_media"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="26dp"
+        android:layout_marginTop="16dp"
+        android:clipToPadding="false"
+        tools:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        tools:listitem="@layout/item_image"
+        tools:orientation="horizontal" />
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?attr/colorOnPrimary"
+        android:layout_marginTop="16dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:paddingHorizontal="20dp"
+        android:layout_marginVertical="18dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_circle"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="@drawable/bg_oval"
+            android:backgroundTint="#4A4A4A"
+            android:importantForAccessibility="no"
+            android:padding="10dp"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_initial"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:fontFamily="@font/aleo_bold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:textColor="?attr/colorOnPrimary"
+            android:textSize="24sp"
+            android:text="A" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/tv_initial"
+            android:text="@string/email"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/aleo_bold"
+            android:textSize="16sp"
+            android:textColor="#D9D9D9" />
+    </RelativeLayout>
+</LinearLayout>

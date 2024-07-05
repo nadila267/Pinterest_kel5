@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_top_rounded_8"
+    android:orientation="vertical"
+    android:paddingHorizontal="60dp"
+    android:paddingTop="22dp"
+    android:paddingBottom="100dp"
+    tools:context=".profile.ProfileMenuFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aleo"
+        android:includeFontPadding="false"
+        android:text="@string/action_log_out"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:backgroundTint="?attr/colorOnPrimary"
+        app:elevation="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/aleo"
+        android:includeFontPadding="false"
+        android:text="@string/action_delete_account"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:backgroundTint="?attr/colorOnPrimary"
+        app:elevation="8dp" />
+</LinearLayout>

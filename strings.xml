@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Pinterest</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_search">Search</string>
+    <string name="title_create">Create</string>
+    <string name="title_inbox">Inbox</string>
+    <string name="title_profile">Profile</string>
+    <string name="home_title">Semua</string>
+    <string name="hint_search">Search</string>
+    <string name="tab_all">All</string>
+    <string name="tab_today">Today</string>
+    <string name="tab_following">Following</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="suggestion_invitation_design">invitation design</string>
+    <string name="suggestion_outfit_black_red_men">outfit black red men</string>
+    <string name="suggestion_invitation_ramadhan">invitation ramadhan</string>
+    <string name="suggestion_nature_pictures">nature pictures</string>
+    <string name="tab_photos">Photos</string>
+    <string name="tab_videos">Videos</string>
+    <string name="tab_templates">Templates</string>
+    <string name="title_history">History</string>
+    <string name="editing_picture">Editing picture</string>
+    <string name="action_messages">Messages</string>
+    <string name="new_message">New message</string>
+    <string name="invite_your_friends">Invite your friends</string>
+    <string name="connect_to_start_chatting">Connect to start chatting</string>
+    <string name="search_by_name_or_email">Search by name or email</string>
+    <string name="email"><u>Allyaamira12@gmail.com</u></string>
+    <string name="username">anggeliaa30</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="tab_post">Post</string>
+    <string name="tab_saved">Saved</string>
+    <string name="action_log_out">Log Out</string>
+    <string name="action_delete_account">Delete Account</string>
+    <string name="action_done">Done</string>
+    <string name="disclaimer_edit_profile">Keep your personal details private. Information You add here is visible to anyone who can view yor profile</string>
+    <string name="action_edit">Edit</string>
+</resources>
